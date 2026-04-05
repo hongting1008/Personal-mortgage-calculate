@@ -1,1 +1,20 @@
-# Personal mortgage calculate
+# 個人房貸試算器 (Personal Mortgage Calculator)
+
+這是一個基於 C# Windows Forms 開發的個人房貸試算應用程式。使用者可以透過輸入房屋總價、自備款、貸款利率與年限，快速計算出每月的還款金額與總利息支出。
+
+## 專案功能
+- 支援「自備款比例」與「自備款金額」的彈性切換輸入。
+- 可選擇性加入「寬限期」進行計算。
+- 精準計算並格式化輸出：貸款總額、每月應繳本息、首期利息、首期本金、總利息與總還款金額。
+- 具備完整的輸入防呆機制，避免惡意或錯誤輸入導致程式崩潰。
+
+## 執行環境
+- 開發工具：Visual Studio 
+- 框架：.NET Framework (C# Windows Forms)
+
+## 執行畫面與使用說明
+<img width="1244" height="861" alt="image" src="https://github.com/user-attachments/assets/4f3995ac-b140-48d1-8202-86ed87d544ca" />
+
+1. 依序填寫或確認「輸入資訊」區塊的各項數值。
+2. 點擊左下角的「計算」按鈕。
+3. 下方「計算結果」區塊將會立即顯示精確到小數點後兩位的試算結果。
